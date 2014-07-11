@@ -4,7 +4,7 @@
   "activationEvents": [],
   "main": "./lib/init",
   "version": "0.1.0",
-  "description": "Lint XML on the fly, using ruby -wc (not yet ready)",
+  "description": "Lint Ruby on the fly, using ruby -wc (not yet ready)",
   "repository": "https://github.com/AtomLinter/linter-ruby",
   "license": "MIT",
   "engines": {
