@@ -6,12 +6,6 @@ class LinterRuby extends Linter
   # list/tuple of strings. Names should be all lowercase.
   @syntax: ['source.ruby', 'source.ruby.rails', 'source.ruby.rspec']
 
-  # A string, list, tuple or callable that returns a string, list or tuple,
-  # containing the command line (with arguments) used to lint.
-  cmd: 'ruby -wc'
-
-  executablePath: null
-
   errorStream: 'stderr'
 
   linterName: 'ruby'
@@ -23,10 +17,14 @@ class LinterRuby extends Linter
   constructor: (editor)->
     super(editor)
 
-    atom.config.observe 'linter-ruby.rubyExecutablePath', =>
-      @executablePath = atom.config.get 'linter-ruby.rubyExecutablePath'
+    atom.config.observe 'linter-ruby.executable', => @updateCommand()
 
   destroy: ->
-    atom.config.unobserve 'linter-ruby.rubyExecutablePath'
+    atom.config.unobserve 'linter-ruby.executable'
+
+  updateCommand: ->
+    cmd = [atom.config.get 'linter-ruby.executable']
+    cmd.push '-wc'
+    @cmd = cmd
 
 module.exports = LinterRuby
