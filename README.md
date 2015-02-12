@@ -12,11 +12,9 @@ $ apm install linter-ruby
 ```
 
 ## Settings
-You can configure linter-ruby by editing ~/.atom/config.cson (choose Open Your Config in Atom menu):
-```
-'linter-ruby':
-  'rubyExecutablePath': null #ruby path. run 'which ruby' to find the path.
-```
+You can configure the Ruby executable in your Settings Menu
+
+* **Executable** Path to your Ruby executable
 
 ## Contributing
 If you would like to contribute enhancements or fixes, please do the following:
