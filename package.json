@@ -1,7 +1,7 @@
 {
   "name": "linter-ruby",
   "linter-package": true,
-  "activationEvents": [],
+  "activationCommands": [],
   "main": "./lib/init",
   "version": "0.1.4",
   "description": "Lint Ruby on the fly, using ruby -wc",
