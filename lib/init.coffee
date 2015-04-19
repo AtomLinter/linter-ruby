@@ -1,8 +1,9 @@
 path = require 'path'
 
 module.exports =
-  configDefaults:
-    rubyExecutablePath: null
+  config:
+    type: 'string'
+    default: ''
 
   activate: ->
     console.log 'activate linter-ruby'
