@@ -3,7 +3,7 @@
   "linter-package": true,
   "activationCommands": [],
   "main": "./lib/init",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Lint Ruby on the fly, using ruby -wc",
   "repository": "https://github.com/AtomLinter/linter-ruby",
   "license": "MIT",
