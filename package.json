@@ -1,14 +1,14 @@
 {
   "name": "linter-ruby",
   "linter-package": true,
-  "activationEvents": [],
+  "activationCommands": [],
   "main": "./lib/init",
   "version": "0.1.4",
   "description": "Lint Ruby on the fly, using ruby -wc",
   "repository": "https://github.com/AtomLinter/linter-ruby",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">0.180.0"
   },
   "dependencies": {}
 }
