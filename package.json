@@ -2,7 +2,7 @@
   "name": "linter-ruby",
   "linter-package": true,
   "main": "./lib/init",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Lint Ruby on the fly, using ruby -wc",
   "repository": "https://github.com/AtomLinter/linter-ruby",
   "license": "MIT",
