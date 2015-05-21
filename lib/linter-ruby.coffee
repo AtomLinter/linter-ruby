@@ -27,6 +27,7 @@ class LinterRuby extends Linter
       @executablePath = atom.config.get 'linter-ruby.rubyExecutablePath'
 
   destroy: ->
+    super
     @rubyLinter.dispose
 
 module.exports = LinterRuby
