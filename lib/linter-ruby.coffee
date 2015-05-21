@@ -28,6 +28,6 @@ class LinterRuby extends Linter
 
   destroy: ->
     super
-    @rubyLinter.dispose
+    @rubyLinter.dispose()
 
 module.exports = LinterRuby
