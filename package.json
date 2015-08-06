@@ -1,7 +1,6 @@
 {
   "name": "linter-ruby",
-  "linter-package": true,
-  "main": "./lib/init",
+  "main": "./lib/main",
   "version": "0.1.6",
   "description": "Lint Ruby on the fly, using ruby -wc",
   "repository": "https://github.com/AtomLinter/linter-ruby",
@@ -9,5 +8,30 @@
   "engines": {
     "atom": ">0.180.0"
   },
-  "dependencies": {}
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-linter": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "latest"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    },
+    "ecmaFeatures": {
+      "modules": true
+    },
+    "globals": {
+      "atom": true
+    }
+  }
 }
