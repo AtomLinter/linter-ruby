@@ -5,6 +5,7 @@ This linter plugin for [Linter](https://github.com/AtomLinter/Linter) provides a
 
 ## Installation
 On first activation the plugin will install all dependencies automatically, you no longer have to worry about installing Linter.
+
 Just install this package and you'll be good to go.
 
 ## Settings
