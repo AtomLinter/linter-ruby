@@ -16,7 +16,7 @@ You can configure linter-ruby by editing ~/.atom/config.cson (choose Open Your C
 ```
 'linter-ruby':
   'rubyExecutablePath': null #ruby path. run 'which ruby' to find the path.
-  'ignoredExtensions': 'erb,md' #ignored extensions, ERB and markdown files by default.
+  'ignoredExtensions': 'erb, md' #ignored extensions, ERB and markdown files by default.
 ```
 
 ## Contributing
