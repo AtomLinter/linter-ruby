@@ -16,11 +16,15 @@
     }
   },
   "dependencies": {
-    "atom-linter": "^3.0.0"
+    "atom-linter": "^3.0.0",
+    "atom-package-deps": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "latest"
   },
+  "package-deps": [
+    "linter"
+  ],
   "eslintConfig": {
     "env": {
       "es6": true,
