@@ -10,10 +10,13 @@ Just install this package and you'll be good to go.
 
 ## Settings
 You can configure linter-ruby by editing ~/.atom/config.cson (choose Open Your Config in Atom menu):
-```
+```coffee
 'linter-ruby':
-  'rubyExecutablePath': null #ruby path. run 'which ruby' to find the path.
-  'ignoredExtensions': 'erb, md' #ignored extensions, ERB and markdown files by default.
+  # ruby path. run `which ruby` to find the path.
+  'rubyExecutablePath': null
+
+  # ignored extensions, ERB and markdown files by default.
+  'ignoredExtensions': 'erb, md'
 ```
 
 ## Contributing
