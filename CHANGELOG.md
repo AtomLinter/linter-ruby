@@ -1,7 +1,34 @@
 # Change Log
 
-## [1.2.1](https://github.com/AtomLinter/linter-ruby/tree/1.2.1) (2015-12-30)
-[Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.0...1.2.1)
+## [1.2.2](https://github.com/AtomLinter/linter-ruby/tree/1.2.2) (2016-02-22)
+[Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.1...1.2.2)
+
+**Fixed bugs:**
+
+- All issue markers are offset down by one line [\#36](https://github.com/AtomLinter/linter-ruby/issues/36)
+- set utf8 encoding for check [\#72](https://github.com/AtomLinter/linter-ruby/pull/72) ([ananevam](https://github.com/ananevam))
+
+**Closed issues:**
+
+- \[REQUEST\] Assigned but Unused Variable Error when Variable is Used in ERB [\#58](https://github.com/AtomLinter/linter-ruby/issues/58)
+- Failed to activate the linter-ruby package [\#56](https://github.com/AtomLinter/linter-ruby/issues/56)
+
+**Merged pull requests:**
+
+- Update atom-package-deps to version 4.0.1 🚀 [\#68](https://github.com/AtomLinter/linter-ruby/pull/68) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+- atom-linter@4.5.0 untested ⚠️ [\#66](https://github.com/AtomLinter/linter-ruby/pull/66) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+- atom-package-deps@3.0.8 untested ⚠️ [\#64](https://github.com/AtomLinter/linter-ruby/pull/64) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+- atom-linter@4.4.0 untested ⚠️ [\#63](https://github.com/AtomLinter/linter-ruby/pull/63) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+- chore\(package\): update atom-linter to version 4.3.1 [\#57](https://github.com/AtomLinter/linter-ruby/pull/57) ([Arcanemagus](https://github.com/Arcanemagus))
+- atom-linter@4.3.0 untested ⚠️ [\#55](https://github.com/AtomLinter/linter-ruby/pull/55) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+- atom-package-deps@3.0.7 untested ⚠️ [\#54](https://github.com/AtomLinter/linter-ruby/pull/54) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+
+## [v1.2.1](https://github.com/AtomLinter/linter-ruby/tree/v1.2.1) (2015-12-30)
+[Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.0...v1.2.1)
+
+**Implemented enhancements:**
+
+- changelog use [\#41](https://github.com/AtomLinter/linter-ruby/issues/41)
 
 **Closed issues:**
 
