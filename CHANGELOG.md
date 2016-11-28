@@ -1,7 +1,24 @@
 # Change Log
 
-## [1.2.2](https://github.com/AtomLinter/linter-ruby/tree/1.2.2) (2016-02-22)
-[Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.1...1.2.2)
+## [v1.2.3](https://github.com/AtomLinter/linter-ruby/tree/v1.2.3) (2016-11-28)
+[Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.2...v1.2.3)
+
+**Implemented enhancements:**
+
+- Improve Atom startup time [\#95](https://github.com/AtomLinter/linter-ruby/pull/95) ([walles](https://github.com/walles))
+- Update atom-linter to version 8.0.0 🚀 [\#91](https://github.com/AtomLinter/linter-ruby/pull/91) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+
+**Fixed bugs:**
+
+- false positives due to utf-8/german umlauts [\#69](https://github.com/AtomLinter/linter-ruby/issues/69)
+
+**Merged pull requests:**
+
+- replace -Ku to -E utf-8 [\#78](https://github.com/AtomLinter/linter-ruby/pull/78) ([ananevam](https://github.com/ananevam))
+- atom-linter@4.6.1 untested ⚠️ [\#76](https://github.com/AtomLinter/linter-ruby/pull/76) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+
+## [v1.2.2](https://github.com/AtomLinter/linter-ruby/tree/v1.2.2) (2016-02-22)
+[Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.1...v1.2.2)
 
 **Fixed bugs:**
 
@@ -70,7 +87,7 @@
 
 **Merged pull requests:**
 
-- Convert to independant package. [\#38](https://github.com/AtomLinter/linter-ruby/pull/38) ([kepler0](https://github.com/kepler0))
+- Convert to independant package. [\#38](https://github.com/AtomLinter/linter-ruby/pull/38) ([keplersj](https://github.com/keplersj))
 
 ## [v1.0.3](https://github.com/AtomLinter/linter-ruby/tree/v1.0.3) (2015-09-05)
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.0.2...v1.0.3)
@@ -119,7 +136,7 @@
 
 **Implemented enhancements:**
 
-- Update to Linter v1.0.0 [\#21](https://github.com/AtomLinter/linter-ruby/pull/21) ([kepler0](https://github.com/kepler0))
+- Update to Linter v1.0.0 [\#21](https://github.com/AtomLinter/linter-ruby/pull/21) ([keplersj](https://github.com/keplersj))
 
 **Closed issues:**
 
