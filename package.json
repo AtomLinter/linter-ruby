@@ -8,6 +8,7 @@
   "engines": {
     "atom": ">0.180.0"
   },
+  "activationHooks": ["language-ruby:grammar-used"],
   "providedServices": {
     "linter": {
       "versions": {
