@@ -43,13 +43,13 @@ describe('The Ruby provider for Linter', () => {
         lint(editor).then((messages) => {
           expect(messages.length).toBe(2);
 
-          expect(messages[0].type).toBe('warning');
+          expect(messages[0].type).toBe('Warning');
           expect(messages[0].html).not.toBeDefined();
           expect(messages[0].text).toBe('assigned but unused variable - payload');
           expect(messages[0].filePath).toBe(badPath);
           expect(messages[0].range).toEqual([[1, 2], [1, 13]]);
 
-          expect(messages[1].type).toBe('syntax error');
+          expect(messages[1].type).toBe('Error');
           expect(messages[1].html).not.toBeDefined();
           expect(messages[1].text).toBe('unexpected keyword_end, expecting end-of-input');
           expect(messages[1].filePath).toBe(badPath);
