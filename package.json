@@ -6,12 +6,25 @@
   "repository": "https://github.com/AtomLinter/linter-ruby",
   "license": "MIT",
   "engines": {
-    "atom": ">0.180.0"
+    "atom": ">=1.4.0 <2.0.0"
   },
   "activationHooks": [
     "language-ruby:grammar-used",
     "language-ruby-on-rails:grammar-used"
   ],
+  "configSchema": {
+    "rubyExecutablePath": {
+      "type": "string",
+      "default": "ruby"
+    },
+    "ignoredExtensions": {
+      "type": "array",
+      "default": ["erb", "md"],
+      "items": {
+        "type": "string"
+      }
+    }
+  },
   "providedServices": {
     "linter": {
       "versions": {
