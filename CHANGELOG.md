@@ -1,5 +1,24 @@
 # Change Log
 
+## [v1.2.4](https://github.com/AtomLinter/linter-ruby/tree/v1.2.4) (2016-12-02)
+[Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.3...v1.2.4)
+
+**Implemented enhancements:**
+
+- Implement specs [\#60](https://github.com/AtomLinter/linter-ruby/issues/60)
+- Add CI configurations [\#101](https://github.com/AtomLinter/linter-ruby/pull/101) ([Arcanemagus](https://github.com/Arcanemagus))
+- Add basic specs [\#100](https://github.com/AtomLinter/linter-ruby/pull/100) ([Arcanemagus](https://github.com/Arcanemagus))
+- Cleanup and bugfixes [\#99](https://github.com/AtomLinter/linter-ruby/pull/99) ([Arcanemagus](https://github.com/Arcanemagus))
+- Configure ESLint and cleanup code [\#98](https://github.com/AtomLinter/linter-ruby/pull/98) ([Arcanemagus](https://github.com/Arcanemagus))
+
+**Fixed bugs:**
+
+- Linter Not Activating [\#96](https://github.com/AtomLinter/linter-ruby/issues/96)
+- Improve visibility of syntax errors [\#94](https://github.com/AtomLinter/linter-ruby/issues/94)
+- Fix styling of syntax errors [\#102](https://github.com/AtomLinter/linter-ruby/pull/102) ([Arcanemagus](https://github.com/Arcanemagus))
+- Cleanup and bugfixes [\#99](https://github.com/AtomLinter/linter-ruby/pull/99) ([Arcanemagus](https://github.com/Arcanemagus))
+- Add language-ruby-on-rails to activation list [\#97](https://github.com/AtomLinter/linter-ruby/pull/97) ([Arcanemagus](https://github.com/Arcanemagus))
+
 ## [v1.2.3](https://github.com/AtomLinter/linter-ruby/tree/v1.2.3) (2016-11-28)
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.2...v1.2.3)
 
