@@ -1,5 +1,13 @@
 # Change Log
 
+## [v1.2.5](https://github.com/AtomLinter/linter-ruby/tree/v1.2.5) (2017-02-23)
+[Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.4...v1.2.5)
+
+**Implemented enhancements:**
+
+- Remove macOS Testing [\#110](https://github.com/AtomLinter/linter-ruby/pull/110) ([Arcanemagus](https://github.com/Arcanemagus))
+- Update dependencies to enable Greenkeeper 🌴 [\#105](https://github.com/AtomLinter/linter-ruby/pull/105) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+
 ## [v1.2.4](https://github.com/AtomLinter/linter-ruby/tree/v1.2.4) (2016-12-02)
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.3...v1.2.4)
 
