@@ -1,12 +1,27 @@
 # Change Log
 
+## [v1.2.6](https://github.com/AtomLinter/linter-ruby/tree/v1.2.6) (2017-08-28)
+[Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.5...v1.2.6)
+
+**Implemented enhancements:**
+
+- Update Travis CI configuration [\#121](https://github.com/AtomLinter/linter-ruby/pull/121) ([Arcanemagus](https://github.com/Arcanemagus))
+- Update eslint to version 4.5.0 🚀 [\#120](https://github.com/AtomLinter/linter-ruby/pull/120) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update atom-linter to the latest version 🚀 [\#115](https://github.com/AtomLinter/linter-ruby/pull/115) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
+**Fixed bugs:**
+
+- path.extname is deprecated. [\#119](https://github.com/AtomLinter/linter-ruby/issues/119)
+- Guard against pathless TextEditor [\#122](https://github.com/AtomLinter/linter-ruby/pull/122) ([Arcanemagus](https://github.com/Arcanemagus))
+- Change how encoding is specified [\#113](https://github.com/AtomLinter/linter-ruby/pull/113) ([Arcanemagus](https://github.com/Arcanemagus))
+
 ## [v1.2.5](https://github.com/AtomLinter/linter-ruby/tree/v1.2.5) (2017-02-23)
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.4...v1.2.5)
 
 **Implemented enhancements:**
 
 - Remove macOS Testing [\#110](https://github.com/AtomLinter/linter-ruby/pull/110) ([Arcanemagus](https://github.com/Arcanemagus))
-- Update dependencies to enable Greenkeeper 🌴 [\#105](https://github.com/AtomLinter/linter-ruby/pull/105) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update dependencies to enable Greenkeeper 🌴 [\#105](https://github.com/AtomLinter/linter-ruby/pull/105) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v1.2.4](https://github.com/AtomLinter/linter-ruby/tree/v1.2.4) (2016-12-02)
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.3...v1.2.4)
