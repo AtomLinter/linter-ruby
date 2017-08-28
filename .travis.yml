@@ -11,6 +11,10 @@ matrix:
       rvm: 2.3.1
       env: ATOM_CHANNEL=beta
 
+    - os: osx
+      rvm: 2.3.1
+      env: ATOM_CHANNEL=beta
+
 ### Generic setup follows ###
 script:
   - curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh
@@ -31,10 +35,12 @@ git:
 
 sudo: false
 
+dist: trusty
+
 addons:
   apt:
     packages:
     - build-essential
-    - git
-    - libgnome-keyring-dev
     - fakeroot
+    - git
+    - libsecret-1-dev
