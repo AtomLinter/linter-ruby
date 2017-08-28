@@ -19,7 +19,10 @@
     },
     "ignoredExtensions": {
       "type": "array",
-      "default": ["erb", "md"],
+      "default": [
+        "erb",
+        "md"
+      ],
       "items": {
         "type": "string"
       }
@@ -38,8 +41,8 @@
   },
   "devDependencies": {
     "eslint": "^4.5.0",
-    "eslint-config-airbnb-base": "^11.1.0",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0"
   },
   "package-deps": [
     "linter"
