@@ -4,7 +4,7 @@ import { join } from 'path';
 
 const goodPath = join(__dirname, 'fixtures', 'good.rb');
 const badPath = join(__dirname, 'fixtures', 'bad.rb');
-const lint = require('../lib/main.js').provideLinter().lint;
+const { lint } = require('../lib/main.js').provideLinter();
 
 describe('The Ruby provider for Linter', () => {
   beforeEach(() => {
@@ -21,21 +21,16 @@ describe('The Ruby provider for Linter', () => {
   });
 
   it('should be in the packages list', () =>
-    expect(atom.packages.isPackageLoaded('linter-ruby')).toBe(true),
-  );
+    expect(atom.packages.isPackageLoaded('linter-ruby')).toBe(true));
 
   it('should be an active package', () =>
-    expect(atom.packages.isPackageActive('linter-ruby')).toBe(true),
-  );
+    expect(atom.packages.isPackageActive('linter-ruby')).toBe(true));
 
   describe('checks bad.rb and', () => {
     let editor = null;
     beforeEach(() => {
       waitsForPromise(() =>
-        atom.workspace.open(badPath).then(
-          (openEditor) => { editor = openEditor; },
-        ),
-      );
+        atom.workspace.open(badPath).then((openEditor) => { editor = openEditor; }));
     });
 
     it('verifies the messages are correct', () =>
@@ -54,9 +49,7 @@ describe('The Ruby provider for Linter', () => {
           expect(messages[1].text).toBe('unexpected keyword_end, expecting end-of-input');
           expect(messages[1].filePath).toBe(badPath);
           expect(messages[1].range).toEqual([[12, 0], [12, 18]]);
-        }),
-      ),
-    );
+        })));
   });
 
   describe('checks good.rb and', () => {
@@ -65,9 +58,6 @@ describe('The Ruby provider for Linter', () => {
         atom.workspace.open(goodPath).then(editor =>
           lint(editor).then((messages) => {
             expect(messages.length).toBe(0);
-          }),
-        ),
-      ),
-    );
+          }))));
   });
 });
