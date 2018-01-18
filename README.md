@@ -21,6 +21,11 @@ Your Config in Atom menu):
   # ruby path. run `which ruby` to find the path.
   'rubyExecutablePath': null
 
+  # additional arguments arguments passed to ruby.
+  # default: -c -w --external-encoding=utf-8 --internal-encoding=utf-8
+  # add -Ku if you experience problems with utf-8 encoding on macOS.
+  'rubyAdditionalArgs': '-Ku'
+
   # ignored extensions, ERB and markdown files by default.
   'ignoredExtensions': 'erb, md'
 ```

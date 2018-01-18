@@ -17,6 +17,12 @@
       "type": "string",
       "default": "ruby"
     },
+    "rubyAdditionalArgs": {
+      "title": "Additional arguments passed to Ruby",
+      "description": "Default arguments: `-c -w --external-encoding=utf-8 --internal-encoding=utf-8`",
+      "type": "string",
+      "default": ""
+    },
     "ignoredExtensions": {
       "type": "array",
       "default": [
