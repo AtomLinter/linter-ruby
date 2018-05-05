@@ -1,13 +1,14 @@
 # Change Log
 
 ## [v1.2.6](https://github.com/AtomLinter/linter-ruby/tree/v1.2.6) (2017-08-28)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.5...v1.2.6)
 
 **Implemented enhancements:**
 
 - Update Travis CI configuration [\#121](https://github.com/AtomLinter/linter-ruby/pull/121) ([Arcanemagus](https://github.com/Arcanemagus))
 - Update eslint to version 4.5.0 🚀 [\#120](https://github.com/AtomLinter/linter-ruby/pull/120) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
-- Update atom-linter to the latest version 🚀 [\#115](https://github.com/AtomLinter/linter-ruby/pull/115) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update atom-linter to version 10.0.0 🚀 [\#115](https://github.com/AtomLinter/linter-ruby/pull/115) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 **Fixed bugs:**
 
@@ -16,6 +17,7 @@
 - Change how encoding is specified [\#113](https://github.com/AtomLinter/linter-ruby/pull/113) ([Arcanemagus](https://github.com/Arcanemagus))
 
 ## [v1.2.5](https://github.com/AtomLinter/linter-ruby/tree/v1.2.5) (2017-02-23)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.4...v1.2.5)
 
 **Implemented enhancements:**
@@ -24,6 +26,7 @@
 - Update dependencies to enable Greenkeeper 🌴 [\#105](https://github.com/AtomLinter/linter-ruby/pull/105) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v1.2.4](https://github.com/AtomLinter/linter-ruby/tree/v1.2.4) (2016-12-02)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.3...v1.2.4)
 
 **Implemented enhancements:**
@@ -31,7 +34,6 @@
 - Implement specs [\#60](https://github.com/AtomLinter/linter-ruby/issues/60)
 - Add CI configurations [\#101](https://github.com/AtomLinter/linter-ruby/pull/101) ([Arcanemagus](https://github.com/Arcanemagus))
 - Add basic specs [\#100](https://github.com/AtomLinter/linter-ruby/pull/100) ([Arcanemagus](https://github.com/Arcanemagus))
-- Cleanup and bugfixes [\#99](https://github.com/AtomLinter/linter-ruby/pull/99) ([Arcanemagus](https://github.com/Arcanemagus))
 - Configure ESLint and cleanup code [\#98](https://github.com/AtomLinter/linter-ruby/pull/98) ([Arcanemagus](https://github.com/Arcanemagus))
 
 **Fixed bugs:**
@@ -43,6 +45,7 @@
 - Add language-ruby-on-rails to activation list [\#97](https://github.com/AtomLinter/linter-ruby/pull/97) ([Arcanemagus](https://github.com/Arcanemagus))
 
 ## [v1.2.3](https://github.com/AtomLinter/linter-ruby/tree/v1.2.3) (2016-11-28)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.2...v1.2.3)
 
 **Implemented enhancements:**
@@ -57,10 +60,12 @@
 - replace -Ku to -E utf-8 [\#78](https://github.com/AtomLinter/linter-ruby/pull/78) ([ananevam](https://github.com/ananevam))
 
 ## [v1.2.2](https://github.com/AtomLinter/linter-ruby/tree/v1.2.2) (2016-02-22)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.1...v1.2.2)
 
 **Implemented enhancements:**
 
+- changelog use [\#41](https://github.com/AtomLinter/linter-ruby/issues/41)
 - Update atom-package-deps to version 4.0.1 🚀 [\#68](https://github.com/AtomLinter/linter-ruby/pull/68) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
 - atom-linter@4.5.0 untested ⚠️ [\#66](https://github.com/AtomLinter/linter-ruby/pull/66) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
 - atom-package-deps@3.0.8 untested ⚠️ [\#64](https://github.com/AtomLinter/linter-ruby/pull/64) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
@@ -75,11 +80,11 @@
 - set utf8 encoding for check [\#72](https://github.com/AtomLinter/linter-ruby/pull/72) ([ananevam](https://github.com/ananevam))
 
 ## [v1.2.1](https://github.com/AtomLinter/linter-ruby/tree/v1.2.1) (2015-12-30)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.2.0...v1.2.1)
 
 **Implemented enhancements:**
 
-- changelog use [\#41](https://github.com/AtomLinter/linter-ruby/issues/41)
 - Update dependencies [\#53](https://github.com/AtomLinter/linter-ruby/pull/53) ([Arcanemagus](https://github.com/Arcanemagus))
 - Add a .gitattributes [\#52](https://github.com/AtomLinter/linter-ruby/pull/52) ([Arcanemagus](https://github.com/Arcanemagus))
 - atom-linter@4.2.0 untested ⚠️ [\#51](https://github.com/AtomLinter/linter-ruby/pull/51) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
@@ -90,6 +95,7 @@
 - Failed to catch the syntax errors by regex [\#42](https://github.com/AtomLinter/linter-ruby/issues/42)
 
 ## [v1.2.0](https://github.com/AtomLinter/linter-ruby/tree/v1.2.0) (2015-10-08)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.1.1...v1.2.0)
 
 **Implemented enhancements:**
@@ -103,6 +109,7 @@
 - Fix the regex to catch the syntax errors [\#43](https://github.com/AtomLinter/linter-ruby/pull/43) ([buo](https://github.com/buo))
 
 ## [v1.1.1](https://github.com/AtomLinter/linter-ruby/tree/v1.1.1) (2015-09-06)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.1.0...v1.1.1)
 
 **Implemented enhancements:**
@@ -110,6 +117,7 @@
 - Upgrade installer [\#39](https://github.com/AtomLinter/linter-ruby/pull/39) ([steelbrain](https://github.com/steelbrain))
 
 ## [v1.1.0](https://github.com/AtomLinter/linter-ruby/tree/v1.1.0) (2015-09-06)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.0.3...v1.1.0)
 
 **Implemented enhancements:**
@@ -117,6 +125,7 @@
 - Convert to independant package. [\#38](https://github.com/AtomLinter/linter-ruby/pull/38) ([keplersj](https://github.com/keplersj))
 
 ## [v1.0.3](https://github.com/AtomLinter/linter-ruby/tree/v1.0.3) (2015-09-05)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.0.2...v1.0.3)
 
 **Implemented enhancements:**
@@ -131,6 +140,7 @@
 - catch error type by regex [\#35](https://github.com/AtomLinter/linter-ruby/pull/35) ([Project0](https://github.com/Project0))
 
 ## [v1.0.2](https://github.com/AtomLinter/linter-ruby/tree/v1.0.2) (2015-08-19)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.0.1...v1.0.2)
 
 **Fixed bugs:**
@@ -139,6 +149,7 @@
 - Move to a broader regex [\#28](https://github.com/AtomLinter/linter-ruby/pull/28) ([Arcanemagus](https://github.com/Arcanemagus))
 
 ## [v1.0.1](https://github.com/AtomLinter/linter-ruby/tree/v1.0.1) (2015-08-11)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v1.0.0...v1.0.1)
 
 **Fixed bugs:**
@@ -146,6 +157,7 @@
 - Resolve the cwd and return the result from the parse method [\#24](https://github.com/AtomLinter/linter-ruby/pull/24) ([mupkoo](https://github.com/mupkoo))
 
 ## [v1.0.0](https://github.com/AtomLinter/linter-ruby/tree/v1.0.0) (2015-08-07)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v0.1.6...v1.0.0)
 
 **Implemented enhancements:**
@@ -159,6 +171,7 @@
 - Config.unobserve is deprecated. [\#8](https://github.com/AtomLinter/linter-ruby/issues/8)
 
 ## [v0.1.6](https://github.com/AtomLinter/linter-ruby/tree/v0.1.6) (2015-05-21)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v0.1.5...v0.1.6)
 
 **Fixed bugs:**
@@ -166,11 +179,8 @@
 - Package.activateConfig is deprecated. [\#11](https://github.com/AtomLinter/linter-ruby/issues/11)
 
 ## [v0.1.5](https://github.com/AtomLinter/linter-ruby/tree/v0.1.5) (2015-05-16)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v0.1.4...v0.1.5)
-
-**Implemented enhancements:**
-
-- Update linter-ruby to support --one and remove deprecation notices. [\#15](https://github.com/AtomLinter/linter-ruby/pull/15) ([envygeeks](https://github.com/envygeeks))
 
 **Fixed bugs:**
 
@@ -179,6 +189,7 @@
 - Update linter-ruby to support --one and remove deprecation notices. [\#15](https://github.com/AtomLinter/linter-ruby/pull/15) ([envygeeks](https://github.com/envygeeks))
 
 ## [v0.1.4](https://github.com/AtomLinter/linter-ruby/tree/v0.1.4) (2014-08-08)
+
 [Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/v0.1.3...v0.1.4)
 
 **Implemented enhancements:**
@@ -186,6 +197,9 @@
 - Added rails and rspec syntaxes. [\#4](https://github.com/AtomLinter/linter-ruby/pull/4) ([lordjavac](https://github.com/lordjavac))
 
 ## [v0.1.3](https://github.com/AtomLinter/linter-ruby/tree/v0.1.3) (2014-07-11)
+
+[Full Changelog](https://github.com/AtomLinter/linter-ruby/compare/9cba5e07492526f6944c3cacba250acab63c3b26...v0.1.3)
+
 **Implemented enhancements:**
 
 - Update README [\#2](https://github.com/AtomLinter/linter-ruby/pull/2) ([lucasmazza](https://github.com/lucasmazza))
@@ -194,7 +208,3 @@
 **Fixed bugs:**
 
 - fix package.json reporting wrong lang [\#3](https://github.com/AtomLinter/linter-ruby/pull/3) ([ddavison](https://github.com/ddavison))
-
-
-
-\* *This Change Log was automatically generated by [github_changelog_generator](https://github.com/skywinder/Github-Changelog-Generator)*
