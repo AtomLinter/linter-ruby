@@ -33,17 +33,15 @@ describe('The Ruby provider for Linter', () => {
 
     expect(messages.length).toBe(2);
 
-    expect(messages[0].type).toBe('Warning');
-    expect(messages[0].html).not.toBeDefined();
-    expect(messages[0].text).toBe('assigned but unused variable - payload');
-    expect(messages[0].filePath).toBe(badPath);
-    expect(messages[0].range).toEqual([[1, 2], [1, 13]]);
+    expect(messages[0].severity).toBe('warning');
+    expect(messages[0].excerpt).toBe('assigned but unused variable - payload');
+    expect(messages[0].location.file).toBe(badPath);
+    expect(messages[0].location.position).toEqual([[1, 2], [1, 13]]);
 
-    expect(messages[1].type).toBe('Error');
-    expect(messages[1].html).not.toBeDefined();
-    expect(messages[1].text).toBe('unexpected keyword_end, expecting end-of-input');
-    expect(messages[1].filePath).toBe(badPath);
-    expect(messages[1].range).toEqual([[12, 0], [12, 18]]);
+    expect(messages[1].severity).toBe('error');
+    expect(messages[1].excerpt).toBe('unexpected keyword_end, expecting end-of-input');
+    expect(messages[1].location.file).toBe(badPath);
+    expect(messages[1].location.position).toEqual([[12, 0], [12, 18]]);
   });
 
   it('checks good.rb and reports nothing wrong', async () => {
