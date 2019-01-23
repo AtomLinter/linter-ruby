@@ -1,7 +1,7 @@
 {
   "name": "linter-ruby",
   "main": "./lib/main",
-  "version": "1.2.6",
+  "version": "1.3.0",
   "description": "Lint Ruby on the fly, using ruby -wc",
   "repository": {
     "type": "git",
