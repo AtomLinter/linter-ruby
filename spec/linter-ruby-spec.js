@@ -1,8 +1,10 @@
 'use babel';
 
 import { join } from 'path';
-// eslint-disable-next-line no-unused-vars
-import { it, fit, wait, beforeEach, afterEach } from 'jasmine-fix';
+import {
+  // eslint-disable-next-line no-unused-vars
+  it, fit, wait, beforeEach, afterEach,
+} from 'jasmine-fix';
 
 const goodPath = join(__dirname, 'fixtures', 'good.rb');
 const badPath = join(__dirname, 'fixtures', 'bad.rb');
@@ -21,11 +23,13 @@ describe('The Ruby provider for Linter', () => {
     await activationPromise;
   });
 
-  it('should be in the packages list', () =>
-    expect(atom.packages.isPackageLoaded('linter-ruby')).toBe(true));
+  it('should be in the packages list', () => {
+    expect(atom.packages.isPackageLoaded('linter-ruby')).toBe(true);
+  });
 
-  it('should be an active package', () =>
-    expect(atom.packages.isPackageActive('linter-ruby')).toBe(true));
+  it('should be an active package', () => {
+    expect(atom.packages.isPackageActive('linter-ruby')).toBe(true);
+  });
 
   it('checks bad.rb and verifies the messages are correct', async () => {
     const editor = await atom.workspace.open(badPath);
