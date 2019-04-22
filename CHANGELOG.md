@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/AtomLinter/linter-ruby/compare/v1.3.0...v1.3.1) (2019-04-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency atom-package-deps to v5.1.0 ([982b391](https://github.com/AtomLinter/linter-ruby/commit/982b391))
+
 # [1.3.0](https://github.com/AtomLinter/linter-ruby/compare/v1.2.6...v1.3.0) (2019-01-23)
 
 
